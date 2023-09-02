@@ -1,0 +1,83 @@
+# Supermarket Management System Documentation
+## Table of Contents
+Introduction
+Main Code
+Customers Module
+Managers Module
+Usage
+Data Storage
+Error Handling
+Conclusion
+ ## 1. Introduction <a name="introduction"></a>
+The Supermarket Management System is a Python-based program designed to manage inventory and facilitate user and manager interactions in a supermarket setting. This documentation provides an overview of the system's architecture and functionalities, along with detailed explanations of each module.
+
+# 1.1. Modules
+Main Code: The entry point of the system that allows users to choose between a Manager and User interface.
+
+Customers Module: Handles customer interactions, including adding items to the shopping cart, managing the shopping cart, and checking out.
+
+Managers Module: Provides a menu for managers to add, print, and delete items from the inventory.
+
+# 1.2. Features
+User-friendly command-line interface.
+Separate interfaces for customers and managers.
+Inventory management for managers.
+Shopping cart functionality for customers.
+Data storage using JSON files.
+2. Main Code <a name="main-code"></a>
+The main code (main.py) is the entry point of the Supermarket Management System. It provides a menu for users to choose between the Manager and Customer interfaces.
+
+# 2.1. MainDisplay Enum
+Manager: Represents the Manager interface.
+User: Represents the Customer interface.
+menu(): Displays the menu options for users to select.
+2.2. Menu Loop
+The main code runs an infinite loop, prompting the user to make a choice. Depending on the choice, it either calls functions from the Customers module or the Managers module.
+
+3. Customers Module <a name="customers-module"></a>
+The Customers module (customers.py) handles customer interactions, allowing them to manage their shopping cart, add items, and check out.
+
+# 3.1. Global Variables
+shopping_cart: Stores items selected by customers.
+3.2. Functions
+read_items(): Reads item data from a JSON file.
+add_item_to_shopping_cart(): Allows customers to add items to their shopping cart.
+delete_item_from_shopping_cart(): Enables customers to remove items from their shopping cart.
+print_shopping_cart(): Displays the items in the shopping cart along with their quantities and prices.
+checkout(): Calculates the total price of items in the shopping cart and allows customers to pay for their items.
+customer_menu(): Provides the menu for customers to interact with the system.
+4. Managers Module <a name="managers-module"></a>
+The Managers module (managerD.py) is designed for manager interactions. It allows managers to add, print, and delete items from the inventory.
+
+# 4.1. SUPERMARKET_MANGEMENT Enum
+ADD: Represents the option to add items to the inventory.
+PRINT: Represents the option to print the current inventory.
+DELETE: Represents the option to delete items from the inventory.
+EXIT: Represents the option to exit the manager interface.
+4.2. Item Class
+Represents an item in the supermarket's inventory, including its name, price, item ID, and quantity.
+4.3. Functions
+displaymenu(): Displays the menu options for managers.
+read_json(): Reads item data from a JSON file.
+write_json(): Writes data to a JSON file.
+menu(): Provides the menu for managers to perform actions.
+add_func(): Allows managers to add items to the inventory.
+print_items(): Prints the current inventory and its total value.
+delete_item(): Enables managers to delete items from the inventory.
+save_data(): Saves inventory data to a JSON file.
+5. Usage <a name="usage"></a>
+To use the Supermarket Management System:
+
+# Run the main.py script.
+Choose between the Manager and Customer interfaces.
+Follow the respective menu options to interact with the system.
+6. Data Storage <a name="data-storage"></a>
+Item data is stored in JSON files. Items are read from and written to the "data.json" file.
+Inventory data is stored in the "data.json" file, and shopping cart data is stored in-memory while the program is running.
+7. Error Handling <a name="error-handling"></a>
+The system handles errors gracefully by providing informative error messages.
+Error handling includes file not found errors, JSON decoding errors, and invalid user inputs.
+8. Conclusion <a name="conclusion"></a>
+The Supermarket Management System is a versatile and user-friendly program designed to facilitate supermarket operations. It offers distinct interfaces for customers and managers, allowing efficient inventory management and shopping cart functionality. The use of JSON files ensures data persistence, and robust error handling enhances the reliability of the system.
+
+This documentation serves as a guide for understanding the system's architecture and functionality, enabling users to effectively utilize and maintain the Supermarket Management System.

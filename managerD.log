@@ -1,0 +1,14 @@
+2023-09-01 19:12:27,413 - managerD - INFO - This is an info message
+2023-09-01 19:12:27,413 - managerD - ERROR - This is an error message
+2023-09-01 19:16:05,479 - managerD - DEBUG - This is a debug message
+2023-09-01 19:16:05,479 - managerD - INFO - This is an info message
+2023-09-01 19:16:05,479 - managerD - ERROR - This is an error message
+2023-09-01 19:16:27,841 - managerD - DEBUG - This is a debug message
+2023-09-01 19:16:27,841 - managerD - INFO - This is an info message
+2023-09-01 19:16:27,841 - managerD - ERROR - This is an error message
+2023-09-01 19:17:58,845 - managerD - DEBUG - This is a debug message
+2023-09-01 19:17:58,845 - managerD - INFO - This is an info message
+2023-09-01 19:17:58,845 - managerD - ERROR - This is an error message
+2023-09-02 09:50:23,793 - managerD - DEBUG - This is a debug message
+2023-09-02 09:50:23,793 - managerD - INFO - This is an info message
+2023-09-02 09:50:23,793 - managerD - ERROR - This is an error message

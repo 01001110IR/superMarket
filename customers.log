@@ -1,0 +1,14 @@
+2023-09-01 19:12:27,414 - customers - INFO - This is an info message
+2023-09-01 19:12:27,414 - customers - ERROR - This is an error message
+2023-09-01 19:16:05,479 - customers - DEBUG - This is a debug message
+2023-09-01 19:16:05,479 - customers - INFO - This is an info message
+2023-09-01 19:16:05,479 - customers - ERROR - This is an error message
+2023-09-01 19:16:27,841 - customers - DEBUG - This is a debug message
+2023-09-01 19:16:27,841 - customers - INFO - This is an info message
+2023-09-01 19:16:27,841 - customers - ERROR - This is an error message
+2023-09-01 19:17:58,845 - customers - DEBUG - This is a debug message
+2023-09-01 19:17:58,845 - customers - INFO - This is an info message
+2023-09-01 19:17:58,845 - customers - ERROR - This is an error message
+2023-09-02 09:50:23,793 - customers - DEBUG - This is a debug message
+2023-09-02 09:50:23,793 - customers - INFO - This is an info message
+2023-09-02 09:50:23,793 - customers - ERROR - This is an error message
